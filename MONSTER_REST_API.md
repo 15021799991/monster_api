@@ -8,18 +8,18 @@
 
 1.Post /monster/coin/v1/price   获取币币行情
 
-URL `https://www.monster.one//monster/coin/v1/price`	
+URL `https://www.monster.one/monster/coin/v1/price`	
 
 示例	
 
 ```
 # Request
-Post https://www.monster.one//monster/coin/v1/price
+Post https://www.monster.one/monster/coin/v1/price
 {
-     "appId": "mst236153cd620f3fbb",
-     "appSign": "D0F0165EF45E7FECA2A1A7C0DC246822",
-     "nonceStr": "112ae6eb-986b-43b0-9a90-3be317b7ea2f", 
-     "timestamp": "1537238490607",
+     "appId": "mst236153cd620g3fbb",
+     "appSign": "D0F0165EF45E7FECA2A1A8C0DC246822",
+     "nonceStr": "112ae6eb-986b-43b0-9a99-3be317b7ea2f", 
+     "timestamp": "1537238390607",
      "symbol": "MR/ETH"
 }
 ```
@@ -68,3 +68,58 @@ amount: 交易额
 begin: 开盘价
 end: 收盘价
 ```
+
+
+2.Post /monster/coin/v1/trade   币币交易下单
+
+URL `https://www.monster.one/monster/coin/v1/trade`	
+
+示例	
+
+```
+# Request
+Post https://www.monster.one//monster/coin/v1/trade
+{
+     "appId": "mst233153cd620g3fbb",
+     "appSign": "D0F0164EF45E7FECA2A1A8C0DC246822",
+     "nonceStr": "112ae7eb-986b-43b0-9a99-3be317b7ea2f", 
+     "timestamp": "1537238390607",
+     "symbol": "MR/ETH",
+     "type": "B",
+     "amount": "1.0",
+     "price": "1.0"
+}
+```
+
+请求值说明	
+
+```
+appId: 认证id
+appSign: 签名数据
+nonceStr: 随机字符串
+timestamp: 时间戳
+symbol: 币对
+type: 订单类型('B':买单, 'S': 卖单)
+amount: 数量
+price: 价格
+```
+
+```
+# Response
+{
+    "orderId": "ORDER201809181423497609581548510",
+    "respCode": {
+        "code": "00000",
+        "desc": "成功"
+    },
+    "success": true
+}
+```
+
+返回值说明	
+
+```
+orderId: 订单编号
+```
+
+3.Post 
