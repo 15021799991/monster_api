@@ -6,7 +6,7 @@
 
 获取OKEx币币行情数据  
 
-1. Post /monster/coin/v1/price    获取币币行情
+1. Post /monster/coin/v1/price   获取币币行情
 
 URL `https://www.monster.one//monster/coin/v1/price`	
 
