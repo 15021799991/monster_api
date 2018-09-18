@@ -22,6 +22,7 @@ Post https://www.monster.one//monster/coin/v1/price
 	"timestamp": "1537238490607",
   "symbol": "MR/ETH"
 }
+```
 
 请求值说明	
 
