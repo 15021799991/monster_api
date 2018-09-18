@@ -4,7 +4,7 @@
 
 ### 币币行情 API 
 
-获取OKEx币币行情数据  
+获取币币行情数据  
 
 1.Post /monster/coin/v1/price   获取币币行情
 
