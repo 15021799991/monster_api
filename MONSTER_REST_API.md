@@ -16,11 +16,11 @@ URL `https://www.monster.one//monster/coin/v1/price`
 # Request
 Post https://www.monster.one//monster/coin/v1/price
 {
-	"appId": "mst236153cd620f3fbb",
-	"appSign": "D0F0165EF45E7FECA2A1A7C0DC246822",
-	"nonceStr": "112ae6eb-986b-43b0-9a90-3be317b7ea2f", 
-	"timestamp": "1537238490607",
-  "symbol": "MR/ETH"
+     "appId": "mst236153cd620f3fbb",
+     "appSign": "D0F0165EF45E7FECA2A1A7C0DC246822",
+     "nonceStr": "112ae6eb-986b-43b0-9a90-3be317b7ea2f", 
+     "timestamp": "1537238490607",
+     "symbol": "MR/ETH"
 }
 ```
 
