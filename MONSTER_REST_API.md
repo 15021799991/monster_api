@@ -122,4 +122,43 @@ price: 价格
 orderId: 订单编号
 ```
 
-3.Post 
+
+3.Post /monster/coin/v1/cancel_trade   币币交易撤单
+
+URL `https://www.monster.one/monster/coin/v1/cancel_trade`
+
+示例	
+
+```
+# Request
+Post https://www.monster.one//monster/coin/v1/cancel_trade
+{
+     "appId": "mst233153cd620g3fbb",
+     "appSign": "D0F0164EF45E7FECA2A1A8C0DC246822",
+     "nonceStr": "112ae7eb-986b-43b0-9a99-3be317b7ea2f", 
+     "timestamp": "1537238390607",
+     "orderId:": "ORDER201809181145351326674380179"
+}
+```
+
+请求值说明	
+
+```
+appId: 认证id
+appSign: 签名数据
+nonceStr: 随机字符串
+timestamp: 时间戳
+orderId: 订单编号
+```
+
+```
+# Response
+{
+    "respCode": {
+        "code": "00000",
+        "desc": "成功"
+    },
+    "success": true
+}
+```
+
