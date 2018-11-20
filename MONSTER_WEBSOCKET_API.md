@@ -3,7 +3,7 @@
 
 ## WEBSOCKET服务地址:
 
-	WEBSOCKET服务连接地址: wss://www.monster.one/websocket
+	WEBSOCKET服务连接地址: wss://www.monster.one/websocket(暂未开放)
 
 
 ## WEBSOCKET SUBSCRIBE说明：
@@ -198,12 +198,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.02000000,
 		"totalVolume": 0,
-		"totalAmount": 0,
-		"dealTime": null,
-		"beginTime": null,
-		"endTime": null,
-		"createTime": null,
-		"modifyTime": null
+		"totalAmount": 0
 	}, {
 		"coinPairId": "30003",
 		"klineType": "5",
@@ -214,12 +209,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.02000000,
 		"totalVolume": 0,
-		"totalAmount": 0,
-		"dealTime": null,
-		"beginTime": null,
-		"endTime": null,
-		"createTime": null,
-		"modifyTime": null
+		"totalAmount": 0
 	}, {
 		"coinPairId": "30003",
 		"klineType": "1",
@@ -230,12 +220,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.02000000,
 		"totalVolume": 0,
-		"totalAmount": 0,
-		"dealTime": null,
-		"beginTime": null,
-		"endTime": null,
-		"createTime": null,
-		"modifyTime": null
+		"totalAmount": 0
 	}, {
 		"coinPairId": "30003",
 		"klineType": "3",
@@ -246,12 +231,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.02000000,
 		"totalVolume": 0,
-		"totalAmount": 0,
-		"dealTime": null,
-		"beginTime": null,
-		"endTime": null,
-		"createTime": null,
-		"modifyTime": null
+		"totalAmount": 0
 	}, {
 		"coinPairId": "30003",
 		"klineType": "0",
@@ -262,12 +242,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.02000000,
 		"totalVolume": 0,
-		"totalAmount": 0,
-		"dealTime": null,
-		"beginTime": null,
-		"endTime": null,
-		"createTime": null,
-		"modifyTime": null
+		"totalAmount": 0
 	}, {
 		"coinPairId": "30003",
 		"klineType": "2",
@@ -278,12 +253,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.02000000,
 		"totalVolume": 0,
-		"totalAmount": 0,
-		"dealTime": null,
-		"beginTime": null,
-		"endTime": null,
-		"createTime": null,
-		"modifyTime": null
+		"totalAmount": 0
 	}, {
 		"coinPairId": "30003",
 		"klineType": "6",
@@ -294,12 +264,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.02000000,
 		"totalVolume": 0,
-		"totalAmount": 0,
-		"dealTime": null,
-		"beginTime": null,
-		"endTime": null,
-		"createTime": null,
-		"modifyTime": null
+		"totalAmount": 0
 	}, {
 		"coinPairId": "30003",
 		"klineType": "7",
@@ -310,12 +275,7 @@ coinPair: MON/ETH(可以使用怪兽市场中存在的各类币对)
 		"maxPrice": 0.02000000,
 		"minPrice": 0.00200000,
 		"totalVolume": 900.00000000,
-		"totalAmount": 3.60000000,
-		"dealTime": null,
-		"beginTime": 1542107381000,
-		"endTime": 1542108819000,
-		"createTime": 1542107383000,
-		"modifyTime": 1542108822000
+		"totalAmount": 3.60000000
 	}
 ]
 
