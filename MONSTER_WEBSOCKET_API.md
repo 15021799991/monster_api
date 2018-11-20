@@ -15,7 +15,7 @@
 	
 	//WEBSOCKET连接和订阅地址
 	static final WEBSOCKET_CONNECT = "wss://www.monster.one/websocket"
-	static final WEBSOCKET_TOPIC_PRICE= "/topic／all/price"
+	static final WEBSOCKET_TOPIC_PRICE= "/topic/all/price"
 
 	//WEBSOCKET STOMP CLIENT问题
 	WebSocketStompClient webSocketStompClient 
