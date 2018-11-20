@@ -24,11 +24,10 @@
 	webSocketStompClient.setTaskScheduler(new DefaultManagedTaskScheduler());
 
 	//WEBSOCKET连接和订阅
-    StompSession stompSession =
-        webSocketStompClient.connect(WEBSOCKET_CONNECT,
-            new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
-
-    stompSession.subscribe(WEBSOCKET_TOPIC_ALL_Price, new SimpleStompFrameHandler());
+    	StompSession stompSession =
+        	webSocketStompClient.connect(WEBSOCKET_CONNECT,
+            		new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
+    	stompSession.subscribe(WEBSOCKET_TOPIC_ALL_PRICE, new SimpleStompFrameHandler());
 
     说明：
     (1) WEBSOCKET会话和消息处理，由用户根据自身的业务需求进行编写。
