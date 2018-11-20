@@ -343,7 +343,7 @@ modifyTime: 修改时间
 ```
 
 
-4.Subscribe /topic/depth/{coinPair}  币对K线
+4.Subscribe /topic/depth/{coinPair}  币对深度
 
 示例	
 
