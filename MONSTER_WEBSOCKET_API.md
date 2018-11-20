@@ -27,7 +27,6 @@
     StompSession stompSession =
         webSocketStompClient.connect(WEBSOCKET_CONNECT,
             new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
-
     stompSession.subscribe(WEBSOCKET_TOPIC_ALL_Price, new SimpleStompFrameHandler());
 
     说明：
