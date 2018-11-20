@@ -24,21 +24,22 @@
 	webSocketStompClient.setTaskScheduler(new DefaultManagedTaskScheduler());
 
 	//WEBSOCKET连接和订阅
-    	StompSession stompSession =
-        	webSocketStompClient.connect(WEBSOCKET_CONNECT,
-            		new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
-    	stompSession.subscribe(WEBSOCKET_TOPIC_ALL_PRICE, new SimpleStompFrameHandler());
+    StompSession stompSession =
+        webSocketStompClient.connect(WEBSOCKET_CONNECT,
+            new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
+
+    stompSession.subscribe(WEBSOCKET_TOPIC_ALL_Price, new SimpleStompFrameHandler());
 
     说明：
     (1) WEBSOCKET会话和消息处理，由用户根据自身的业务需求进行编写。
     (2) MONSTER WEBSOCKET服务基于STOMP协议实现。
     (3) 以上为JAVA样例，用户需根据使用编程语言的不同，来编写具体的调用代码。
     (4) 特定用户的订阅需要用户通过WebSocketHttpHeaders传递用户的身份认证信息，例如：	
-	WebSocketHttpHeaders webSocketHttpHeaders = new WebSocketHttpHeaders();
-	webSocketHttpHeaders.add("sessionId", "SESSION2018103115570938983411759");
-	StompSession stompSession =
-		webSocketStompClient.connect(WEBSOCKET_CONNECT, webSocketHttpHeaders，
-					new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
+		WebSocketHttpHeaders webSocketHttpHeaders = new WebSocketHttpHeaders();
+		webSocketHttpHeaders.add("sessionId", "SESSION2018103115570938983411759");
+		StompSession stompSession =
+	    		webSocketStompClient.connect(WEBSOCKET_CONNECT, webSocketHttpHeaders，
+	        		 		new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
 
 
 
