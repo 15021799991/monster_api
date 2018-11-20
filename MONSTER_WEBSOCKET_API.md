@@ -34,11 +34,11 @@
     (2) MONSTER WEBSOCKET服务基于STOMP协议实现。
     (3) 以上为JAVA样例，用户需根据使用编程语言的不同，来编写具体的调用代码。
     (4) 特定用户的订阅需要用户通过WebSocketHttpHeaders传递用户的身份认证信息，例如：	
-		WebSocketHttpHeaders webSocketHttpHeaders = new WebSocketHttpHeaders();
-		webSocketHttpHeaders.add("sessionId", "SESSION2018103115570938983411759");
-		StompSession stompSession =
-	    		webSocketStompClient.connect(WEBSOCKET_CONNECT, webSocketHttpHeaders，
-	        		 		new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
+	WebSocketHttpHeaders webSocketHttpHeaders = new WebSocketHttpHeaders();
+	webSocketHttpHeaders.add("sessionId", "SESSION2018103115570938983411759");
+	StompSession stompSession =
+	    	webSocketStompClient.connect(WEBSOCKET_CONNECT, webSocketHttpHeaders，
+	        		 	new StompSessionHandlerAdapter(){}).get(3, TimeUnit.SECONDS);
 
 
 
